@@ -11,6 +11,6 @@ public class Router extends RouteBuilder {
         from("timer:producer-timer?period=3000")
                 .process(new Generator())
                 .log("${body}")
-                .to("kafka:my_topic?brokers=localhost:9092");
+                .to("kafka:randomNumber_topic?brokers=localhost:9092");
     }
 }

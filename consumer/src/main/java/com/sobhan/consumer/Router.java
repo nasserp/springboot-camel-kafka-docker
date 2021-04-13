@@ -21,12 +21,9 @@ public class Router extends RouteBuilder {
     Calculator calculator;
 
     @Override
-    public void configure()  {
-
-               // from("kafka:my_topic?brokers=localhost:9092")
+    public void configure() {
         from("timer:producer-timer?period=9000")
-
-         .bean(calculator);
+                .bean(calculator);
 
     }
 }

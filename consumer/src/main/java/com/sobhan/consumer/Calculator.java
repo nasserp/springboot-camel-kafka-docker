@@ -9,7 +9,7 @@ public class Calculator{
 
     private static int sum;
 
-    @KafkaListener(topics = "my_topic",groupId = "my_group_id")
+    @KafkaListener(topics = "randomNumber_topic",groupId = "randomNumber_group")
     public synchronized void getMessage(String message){
         if(message==null){
             System.out.println("sum:" +sum);
