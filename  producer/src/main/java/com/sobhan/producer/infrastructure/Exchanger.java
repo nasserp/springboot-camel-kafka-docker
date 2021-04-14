@@ -1,4 +1,4 @@
-package com.sobhan.producer.routes;
+package com.sobhan.producer.infrastructure;
 
 import com.sobhan.producer.services.Generator;
 import org.apache.camel.Exchange;

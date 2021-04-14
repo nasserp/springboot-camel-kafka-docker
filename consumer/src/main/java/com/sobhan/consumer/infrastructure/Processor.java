@@ -1,4 +1,4 @@
-package com.sobhan.consumer.routes;
+package com.sobhan.consumer.infrastructure;
 
 import com.sobhan.consumer.services.Calculator;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.sobhan.consumer.routes;
+package com.sobhan.consumer.infrastructure;
 
 import org.springframework.stereotype.Component;
 
