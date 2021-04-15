@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Router extends RouteBuilder {
 
-    private static final int TIMER_PERIOD = 9000;
+    private static final int TIMER_PERIOD = 60000;
     private static final String TIMER_NAME = "consumer-timer";
 
     @Autowired
