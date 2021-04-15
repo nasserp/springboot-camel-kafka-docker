@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Router extends RouteBuilder {
 
-    private static final int TIMER_PERIOD = 3000;
+    private static final int TIMER_PERIOD = 10000;
     private static final String TIMER_NAME = "producer-timer";
     private static final String KAFKA_TOPIC_NAME = "randomNumber_topic";
     private static final String KAFKA_BROKER_URL = "localhost:9092";
